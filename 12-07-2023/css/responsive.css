@@ -1,0 +1,114 @@
+
+
+@media screen and (max-width:479px) {
+    
+.header-row1 {
+    height: auto;
+}
+.header-row1::before {
+    height: 120px;
+    width: 104%;
+}
+.header-row2 {
+    padding: 0px 0
+}
+.container{
+    padding: 10px 15px;
+}
+    .header-row1-wrapper {
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+        flex-direction: column;
+    }
+    .header-row1-inner-left {
+        flex-direction: column;
+    }
+    .banner figcaption {
+        position: static;
+        transform: translate(0px, 0%);
+    }
+    .header-row2-inner {
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .main-navigation ul {
+        flex-direction: column;
+    }
+    .main-navigation ul {
+        padding: 10px 0;
+    }
+    .carousel-caption {
+        width: 100%;
+    }
+    .carousel-caption h1 {
+        font-size: 29px;
+        padding-bottom:0;
+        line-height: 40px;
+    }
+    .article-row1{
+        padding: 0;
+    }
+    .article-row1-inner {
+        flex-direction: column;
+    }
+    .article-row1-left {
+         width: 100%;
+    }
+    .img-about1 {
+        width: 100%;
+    }
+    .img-about2{
+        width: 100%;
+    }
+    .article-row1-right {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 80px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    .article-row2-inner {
+        flex-direction: column;
+    }
+    .article-row2-row1-left {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+    .article-row2-row1-right {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .article-row2-row-2 {
+        flex-direction: column;
+    }
+    .article-row2-row-2 section {
+        width: 100%;
+    }
+    .article-row2-row-2-circle-image {
+        right: 18px;
+        top: 98px;
+    }
+    .article-row3 {
+         padding:0; 
+    }
+    .article-row3-row2 {
+        flex-direction: column;
+    }
+    .article-row3-row2 section {
+        width: 100%;
+    }
+    .article-row3-row2-wrapper span {
+        left: 136px;
+    }
+    .footer-inner {
+        flex-direction: column;
+    }
+    .footer-inner section {
+        width: 100%;
+    }
+}
+   
